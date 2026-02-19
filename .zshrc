@@ -133,3 +133,13 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 export CPPFLAGS="-I/opt/homebrew/opt/openjdk/include"
 
 export PATH="$HOME/.local/bin:$PATH"
+export PATH="/opt/homebrew/opt/node@22/bin:$PATH"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/rizkialhamid/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/rizkialhamid/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/rizkialhamid/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/rizkialhamid/google-cloud-sdk/completion.zsh.inc'; fi
+
+# opencode
+export PATH=/Users/rizkialhamid/.opencode/bin:$PATH
